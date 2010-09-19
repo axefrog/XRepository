@@ -1,0 +1,17 @@
+debug/*
+release/*
+Bin
+Bin/*
+obj/*
+*.csuser
+*.suo
+*.ReSharper
+*.user
+*.tmp
+*.db
+*.orig
+*.bak
+.hg/*
+bin
+bin/*
+obj

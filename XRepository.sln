@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRepository", "XRepository\XRepository.csproj", "{9780C441-A278-4717-A253-658D118E1A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRepository.Tests", "XRepository.Tests\XRepository.Tests.csproj", "{2BD287B1-ADDA-4F1D-8D4E-D1AC5FB6A34B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7402D697-E24F-4226-A3DF-3FB5B4523B19}"
+	ProjectSection(SolutionItems) = preProject
+		Development Notes.md = Development Notes.md
+		License.txt = License.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRepository.Sample", "XRepository.Sample\XRepository.Sample.csproj", "{89D095D4-29FC-42BF-8D84-94481C519821}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{D6315C20-43F8-47A3-95D3-9B97725EA27C}"
+	ProjectSection(SolutionItems) = preProject
+		XRepository.Tests\Local.testsettings = XRepository.Tests\Local.testsettings
+		XRepository.Tests\TraceAndTestImpact.testsettings = XRepository.Tests\TraceAndTestImpact.testsettings
+		XRepository.Tests\XRepository.vsmdi = XRepository.Tests\XRepository.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9780C441-A278-4717-A253-658D118E1A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9780C441-A278-4717-A253-658D118E1A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9780C441-A278-4717-A253-658D118E1A10}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9780C441-A278-4717-A253-658D118E1A10}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9780C441-A278-4717-A253-658D118E1A10}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9780C441-A278-4717-A253-658D118E1A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9780C441-A278-4717-A253-658D118E1A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9780C441-A278-4717-A253-658D118E1A10}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9780C441-A278-4717-A253-658D118E1A10}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9780C441-A278-4717-A253-658D118E1A10}.Release|x86.ActiveCfg = Release|Any CPU
+		{2BD287B1-ADDA-4F1D-8D4E-D1AC5FB6A34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD287B1-ADDA-4F1D-8D4E-D1AC5FB6A34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD287B1-ADDA-4F1D-8D4E-D1AC5FB6A34B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2BD287B1-ADDA-4F1D-8D4E-D1AC5FB6A34B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2BD287B1-ADDA-4F1D-8D4E-D1AC5FB6A34B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2BD287B1-ADDA-4F1D-8D4E-D1AC5FB6A34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD287B1-ADDA-4F1D-8D4E-D1AC5FB6A34B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD287B1-ADDA-4F1D-8D4E-D1AC5FB6A34B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2BD287B1-ADDA-4F1D-8D4E-D1AC5FB6A34B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2BD287B1-ADDA-4F1D-8D4E-D1AC5FB6A34B}.Release|x86.ActiveCfg = Release|Any CPU
+		{89D095D4-29FC-42BF-8D84-94481C519821}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{89D095D4-29FC-42BF-8D84-94481C519821}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{89D095D4-29FC-42BF-8D84-94481C519821}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{89D095D4-29FC-42BF-8D84-94481C519821}.Debug|x86.ActiveCfg = Debug|x86
+		{89D095D4-29FC-42BF-8D84-94481C519821}.Debug|x86.Build.0 = Debug|x86
+		{89D095D4-29FC-42BF-8D84-94481C519821}.Release|Any CPU.ActiveCfg = Release|x86
+		{89D095D4-29FC-42BF-8D84-94481C519821}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{89D095D4-29FC-42BF-8D84-94481C519821}.Release|Mixed Platforms.Build.0 = Release|x86
+		{89D095D4-29FC-42BF-8D84-94481C519821}.Release|x86.ActiveCfg = Release|x86
+		{89D095D4-29FC-42BF-8D84-94481C519821}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6315C20-43F8-47A3-95D3-9B97725EA27C} = {7402D697-E24F-4226-A3DF-3FB5B4523B19}
+	EndGlobalSection
+EndGlobal
